@@ -18,6 +18,19 @@ The app's following features are:
    - Filter by Date: The user filters moods by the date it was inputted/experienced
 
 ## SPECIFIC DATA HANDLED:
-   - Add Mood: Mood and intensity records in JSON file
-   - Search and View Moods: Mood log entries (date, intensity on that day, etc..)
-   - Filter by Date: Date log entries
+The data fields that the app will handling are:
+   - Mood ID:
+     - Assigned number for each mood
+     - Helps user to find, edit, and delete an inputted mood
+   - Mood Name:
+     - Name of the mood
+     - Used to display and search moods
+   - Mood Level:
+     - How intense the person felt the mood
+     - Used to identify weak or prominent moods
+   - Notes:
+     - Other descriptions about the mood
+     - Used to identify other experiences associated with the mood
+   - Date:
+     - The date the mood was experienced
+     - Used for mood history
